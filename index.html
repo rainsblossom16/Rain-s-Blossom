@@ -1,110 +1,161 @@
-/* Basic Reset */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Rain's Blossom — Home Essential Care</title>
+  <meta name="description" content="Rain's Blossom dishwashing liquid — gentle, effective, makes it easier to clean. Contact: rainsblossom@gmail.com" />
+  <link rel="icon" href="data:;base64,iVBORw0KGgo=" />
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div class="brand">
+        <div class="logo-placeholder">RB</div>
+        <div>
+          <h1>Rain's Blossom</h1>
+          <p>Home Essential Care</p>
+        </div>
+      </div>
+      <nav>
+        <a href="#about">About</a>
+        <a href="#product">Product</a>
+        <a href="#how">How to Use</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
 
-body {
-  font-family: Arial, sans-serif;
-  background-color: #a5fcff; /* light aqua */
-  color: #333;
-  line-height: 1.6;
-}
+    <main>
+      <section class="hero">
+        <div class="hero-card">
+          <span class="eyebrow">All-day clean</span>
+          <h2>Rain's Blossom Dishwashing Liquid</h2>
+          <p class="slogan">Makes it easier</p>
+          <p class="lead">Gentle on hands, tough on grease. Formulated to cut through oil and leave dishes sparkling without harsh residue.</p>
+          <a class="cta" href="#contact">Order Now</a>
 
-/* Header */
-header {
-  background-color: #81c2c5; /* teal header */
-  color: white;
-  padding: 10px 0;
-}
+          <div class="features" aria-hidden>
+            <div class="feature">
+              <strong>Concentrated</strong>
+              <div>Less product, more clean</div>
+            </div>
+            <div class="feature">
+              <strong>Skin-friendly</strong>
+              <div>Dermatologist-friendly ingredients</div>
+            </div>
+            <div class="feature">
+              <strong>Eco-conscious</strong>
+              <div>Biodegradable formula</div>
+            </div>
+          </div>
+        </div>
 
-.nav-container {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  width: 90%;
-  margin: auto;
-}
+        <div class="product-card">
+          <div class="bottle">Rain's Blossom</div>
+          <div class="inline-card-text">
+            Available sizes: 250ml / 500ml / 1L<br>
+            Affordable for everyday use.
+          </div>
+        </div>
+      </section>
 
-.logo {
-  font-size: 1.8rem;
-  font-weight: bold;
-}
+      <section id="about">
+        <div class="container">
+          <div class="grid-2">
+            <div>
+              <h3>About Rain's Blossom</h3>
+              <p>Rain's Blossom was created to make daily cleaning simple and effective. We believe household care should be reliable, gentle, and affordable — made for families who want great results without complicated routines.</p>
+            </div>
+            <div>
+              <h3>Why choose us?</h3>
+              <ul class="how-list">
+                <li>Powerful grease-cutting action</li>
+                <li>Gentle on hands, suitable for daily use</li>
+                <li>Concentrated formula — value for money</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
 
-.nav-links {
-  list-style: none;
-  display: flex;
-  gap: 15px;
-}
+      <section id="product">
+        <div class="container">
+          <h3>Product Benefits</h3>
+          <p>Our dishwashing liquid removes food residues and leaves a fresh scent. Safe for most cookware and rinses off easily.</p>
 
-.nav-links a {
-  color: white;
-  text-decoration: none;
-  font-weight: bold;
-}
+          <div class="inline-cards-container">
+            <div class="inline-card">
+              <strong>Concentrated Formula</strong>
+              <p>Use a small amount for effective cleaning.</p>
+            </div>
+            <div class="inline-card">
+              <strong>Gentle Ingredients</strong>
+              <p>No harsh chemicals that dry your hands.</p>
+            </div>
+            <div class="inline-card">
+              <strong>Fresh Scent</strong>
+              <p>Pleasant, light fragrance that doesn't overpower.</p>
+            </div>
+          </div>
+        </div>
+      </section>
 
-.nav-links a:hover {
-  color: #f0ffff;
-}
+      <section id="how">
+        <div class="container">
+          <h3>How to Use</h3>
+          <ol>
+            <li>Apply a small amount to a sponge or directly on dish.</li>
+            <li>Scrub and rinse thoroughly with water.</li>
+            <li>For tough grease, leave to soak briefly before scrubbing.</li>
+          </ol>
+        </div>
+      </section>
 
-/* Hero Section */
-.hero {
-  text-align: center;
-  padding: 60px 20px;
-  background-color: #81c2c5; /* teal hero */
-  color: white;
-}
+      <section id="contact">
+        <div class="container">
+          <div class="grid-2">
+            <div>
+              <h3>Order / Contact</h3>
+              <p>If you'd like to order or request more information, reach out via Facebook, phone or email. We respond quickly.</p>
 
-.hero h2 {
-  font-size: 2.2rem;
-  margin-bottom: 10px;
-}
+              <ul class="contact-list">
+                <li><strong>Phone:</strong> <a href="tel:+639673688817">+63 967 368 8817</a></li>
+                <li><strong>Email:</strong> <a href="mailto:rainsblossom@gmail.com">rainsblossom@gmail.com</a></li>
+                <li><strong>Facebook:</strong> <a href="https://www.facebook.com/profile.php?id=61583047165239" target="_blank" rel="noopener">facebook.com/rainsblossom</a></li>
+              </ul>
 
-.hero p {
-  font-size: 1.2rem;
-}
+              <p>Prefer to message on Facebook? Click the link above or call us directly.</p>
+            </div>
 
-/* Product Section */
-.product {
-  text-align: center;
-  padding: 40px 20px;
-  background-color: #a5fcff; /* light aqua */
-}
+            <div>
+              <div class="contact-card">
+                <h4>Quick Order</h4>
+                <p>Tell us: size, quantity, delivery details</p>
+                <a href="mailto:rainsblossom@gmail.com?subject=Order%20from%20Rain's%20Blossom">Email to Order</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
 
-.product img {
-  max-width: 300px;
-  margin: 20px 0;
-}
+    <footer>
+      <div>© "Rain's Blossom" — Home Essential Care • Made with care</div>
+    </footer>
+  </div>
 
-/* About Section */
-.about {
-  background-color: #81c2c5; /* teal about section */
-  text-align: center;
-  padding: 40px 20px;
-  color: white;
-}
-
-/* Contact Section */
-.contact {
-  text-align: center;
-  padding: 40px 20px;
-  background-color: #a5fcff; /* light aqua */
-}
-
-/* Footer */
-footer {
-  background-color: #81c2c5; /* teal footer */
-  color: white;
-  text-align: center;
-  padding: 15px 0;
-}
-
-/* Responsive */
-@media (min-width: 768px) {
-  .nav-links {
-    gap: 25px;
-  }
-}
-
-
+  <script>
+    // Smooth scroll for internal links
+    document.querySelectorAll('a[href^="#"]').forEach(a => {
+      a.addEventListener('click', e => {
+        e.preventDefault();
+        const id = a.getAttribute('href').slice(1);
+        if (!id) return window.scrollTo({ top:0, behavior:'smooth' });
+        const el = document.getElementById(id);
+        if (el) el.scrollIntoView({ behavior:'smooth', block:'start' });
+      });
+    });
+  </script>
+</body>
+</html>
