@@ -1,7 +1,7 @@
 :root {
-  --light: #a5fcff;  /* top color */
-  --mid: #81c2c5;    /* bottom color if you want to use it */
-  --dark: #0b4f88;   /* dark accent for text/buttons */
+  --light: #a5fcff;  /* top color of gradient */
+  --mid: #3f9da5;    /* bottom color of gradient */
+  --dark: #0b4f88;   /* keep dark accents as is */
   --accent: #ffffff;
   --max-width: 1100px;
   --radius: 12px;
@@ -14,8 +14,8 @@
 }
 
 body {
-  margin: 0;
-  background: linear-gradient(180deg, var(--light), var(--mid)); /* top → bottom */
+   margin: 0;
+  background: linear-gradient(180deg, var(--light), var(--mid));
   color: #03344d;
   line-height: 1.5;
 }
