@@ -19,7 +19,7 @@ body {
 }
 .header-logo {
     position: fixed;        /* stays at the left top when scrolling */
-    top: 0;                 /* aligns to top of page */
+    top: 0;                 /* aligns to left of page */
     left: 50%;              /* center horizontally */
     transform: translateX(-50%); /* center properly */
     width: 1in;             /* 1 inch wide */
