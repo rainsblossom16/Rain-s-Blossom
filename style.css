@@ -22,17 +22,6 @@ body {
 header { display: flex; align-items: center; justify-content: space-between; padding: 18px 0; }
 
 .brand { display: flex; align-items: center; gap: 14px; }
-
-.logo-placeholder {
-  width: 1in;        /* 1 inch wide */
-  height: 1in;       /* 1 inch tall */
-  border-radius: 10px;
-  background: none;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  box-shadow: var(--shadow);
-
 }
 
 .brand h1 { margin: 0; font-size: 18px; color: var(--dark); }
