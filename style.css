@@ -7,14 +7,14 @@
 
 body {
   font-family: Arial, sans-serif;
-  background: linear-gradient(to bottom, #a5fcff, #81c2c5); /* gradient background */
+  background-color: #a5fcff; /* main background light aqua */
   color: #333;
   line-height: 1.6;
 }
 
 /* Header */
 header {
-  background: linear-gradient(to right, #81c2c5, #a5fcff); /* header gradient */
+  background-color: #81c2c5; /* teal header */
   color: white;
   padding: 10px 0;
 }
@@ -52,7 +52,7 @@ header {
 .hero {
   text-align: center;
   padding: 60px 20px;
-  background: linear-gradient(to right, #81c2c5, #a5fcff); /* hero gradient */
+  background-color: #81c2c5; /* teal hero background */
   color: white;
 }
 
@@ -69,7 +69,7 @@ header {
 .product {
   text-align: center;
   padding: 40px 20px;
-  background: linear-gradient(to right, #a5fcff, #81c2c5); /* product gradient */
+  background-color: #a5fcff; /* light aqua */
 }
 
 .product img {
@@ -79,9 +79,9 @@ header {
 
 /* About Section */
 .about {
+  background-color: #81c2c5; /* teal about section */
   text-align: center;
   padding: 40px 20px;
-  background: linear-gradient(to right, #81c2c5, #a5fcff); /* about gradient */
   color: white;
 }
 
@@ -89,12 +89,12 @@ header {
 .contact {
   text-align: center;
   padding: 40px 20px;
-  background: linear-gradient(to right, #a5fcff, #81c2c5); /* contact gradient */
+  background-color: #a5fcff; /* light aqua */
 }
 
 /* Footer */
 footer {
-  background: linear-gradient(to right, #81c2c5, #a5fcff); /* footer gradient */
+  background-color: #81c2c5; /* teal footer */
   color: white;
   text-align: center;
   padding: 15px 0;
