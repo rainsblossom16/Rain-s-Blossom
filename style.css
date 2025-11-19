@@ -52,13 +52,7 @@ header { display: flex; align-items: center; justify-content: space-between; pad
   align-items: center;
   justify-content: center;
   box-shadow: var(--shadow);
-}
 
-.logo-img {
-  width: 100%;       /* fills the placeholder */
-  height: 100%;      /* fills the placeholder */
-  object-fit: contain; /* keeps aspect ratio */
-  border-radius: 10px; 
 }
 
 .brand h1 { margin: 0; font-size: 18px; color: var(--dark); }
