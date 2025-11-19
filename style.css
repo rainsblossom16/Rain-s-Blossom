@@ -28,14 +28,18 @@ header { display: flex; align-items: center; justify-content: space-between; pad
   width: 56px;
   height: 56px;
   border-radius: 10px;
-  background: linear-gradient(135deg, var(--mid), var(--dark));
+  background: none; /* remove gradient if using image */
   display: flex;
   align-items: center;
   justify-content: center;
-  color: var(--accent);
-  font-weight: 700;
-  font-size: 20px;
   box-shadow: var(--shadow);
+}
+
+.logo-img {
+  width: 100%;       /* fills the placeholder */
+  height: 100%;      /* maintains size */
+  object-fit: contain; /* keeps aspect ratio */
+  border-radius: 10px; /* optional, same as container */
 }
 
 .brand h1 { margin: 0; font-size: 18px; color: var(--dark); }
