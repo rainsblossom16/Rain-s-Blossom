@@ -24,11 +24,11 @@ header { display: flex; align-items: center; justify-content: space-between; pad
 
 .brand { display: flex; align-items: center; gap: 14px; }
 
-logo-placeholder {
-  width: 250px;           /* bigger container */
-  height: 250px;          /* matches container */
+.logo-placeholder {
+  width: 200px;           /* bigger container */
+  height: 200px;          /* matches container */
   border-radius: 10px;    
-  background: none;       /* remove gradient if using image */
+  background: none;       
   display: flex;
   align-items: center;
   justify-content: center;
@@ -36,10 +36,10 @@ logo-placeholder {
 }
 
 .logo-img {
-  width: 100%;            /* fills the placeholder */
-  height: 100%;           /* fills the placeholder */
-  object-fit: contain;    /* keeps aspect ratio */
-  border-radius: 10px;    /* optional, same as container */
+  width: 100%;            
+  height: 100%;           
+  object-fit: contain;    
+  border-radius: 10px;    
 }
 
 .brand h1 { margin: 0; font-size: 18px; color: var(--dark); }
