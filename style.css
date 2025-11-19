@@ -36,8 +36,8 @@ header { display: flex; align-items: center; justify-content: space-between; pad
 }
 
 .logo-img {
-  width: 100%;       /* fills the placeholder */
-  height: 100%;      /* maintains size */
+  width: 5%;       /* fills the placeholder */
+  height: 5%;      /* maintains size */
   object-fit: contain; /* keeps aspect ratio */
   border-radius: 10px; /* optional, same as container */
 }
