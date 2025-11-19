@@ -25,10 +25,10 @@ header { display: flex; align-items: center; justify-content: space-between; pad
 .brand { display: flex; align-items: center; gap: 14px; }
 
 .logo-placeholder {
-  width: 200px;           /* bigger container */
-  height: 200px;          /* matches container */
-  border-radius: 10px;    
-  background: none;       
+  width: 1in;        /* 1 inch wide */
+  height: 1in;       /* 1 inch tall */
+  border-radius: 10px;
+  background: none;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -36,10 +36,10 @@ header { display: flex; align-items: center; justify-content: space-between; pad
 }
 
 .logo-img {
-  width: 100%;            
-  height: 100%;           
-  object-fit: contain;    
-  border-radius: 10px;    
+  width: 100%;       /* fills the placeholder */
+  height: 100%;      /* fills the placeholder */
+  object-fit: contain; /* keeps aspect ratio */
+  border-radius: 10px; 
 }
 
 .brand h1 { margin: 0; font-size: 18px; color: var(--dark); }
