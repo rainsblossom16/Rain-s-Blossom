@@ -25,8 +25,8 @@ header { display: flex; align-items: center; justify-content: space-between; pad
 .brand { display: flex; align-items: center; gap: 14px; }
 
 logo-placeholder {
-  width: 150px;           /* bigger container */
-  height: 150px;          /* matches container */
+  width: 250px;           /* bigger container */
+  height: 250px;          /* matches container */
   border-radius: 10px;    
   background: none;       /* remove gradient if using image */
   display: flex;
