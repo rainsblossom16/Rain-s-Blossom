@@ -6,58 +6,7 @@
   <title>Rain's Blossom — Home Essential Care</title>
   <meta name="description" content="Rain's Blossom dishwashing liquid — gentle, effective, makes it easier to clean. Contact: rainsblossom@gmail.com" />
   <link rel="icon" href="data:;base64,iVBORw0KGgo=" />
-  <style>
-    :root{
-      --light:#cfeefe; /* light blue */
-      --mid:#68b0e8;
-      --dark:#0b4f88; /* dark blue */
-      --accent:#ffffff;
-      --max-width:1100px;
-      --radius:12px;
-      --shadow: 0 8px 24px rgba(11,79,136,0.12);
-      font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;
-    }
-    *{box-sizing:border-box}
-    body{margin:0;background:linear-gradient(180deg,var(--light),#f7fbff);color:#03344d;line-height:1.5}
-    .container{max-width:var(--max-width);margin:0 auto;padding:24px}
-    header{display:flex;align-items:center;justify-content:space-between;padding:18px 0}
-    .brand{display:flex;align-items:center;gap:14px}
-    .logo-placeholder{width:56px;height:56px;border-radius:10px;background:linear-gradient(135deg,var(--mid),var(--dark));display:flex;align-items:center;justify-content:center;color:var(--accent);font-weight:700;font-size:20px;box-shadow:var(--shadow)}
-    .brand h1{margin:0;font-size:18px;color:var(--dark)}
-    .brand p{margin:0;font-size:13px;color:#0b3b57}
-    nav a{margin-left:18px;text-decoration:none;color:var(--dark);font-weight:600}
-
-    .hero{display:grid;grid-template-columns:1fr 420px;gap:28px;align-items:center;padding:28px 0}
-    .hero-card{background:var(--accent);border-radius:16px;padding:28px;box-shadow:var(--shadow)}
-    .eyebrow{display:inline-block;background:rgba(11,79,136,0.06);color:var(--dark);padding:6px 10px;border-radius:999px;font-weight:700;font-size:12px}
-    h2{margin:12px 0 8px;font-size:32px;color:var(--dark)}
-    .slogan{color:#0b4f88;font-weight:600}
-    p.lead{color:#134a63;margin-bottom:18px}
-    .cta{display:inline-block;background:var(--dark);color:var(--accent);padding:12px 18px;border-radius:10px;text-decoration:none;font-weight:700}
-    .features{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin-top:18px}
-    .feature{background:linear-gradient(180deg,var(--light),#fff);padding:12px;border-radius:10px;border:1px solid rgba(11,79,136,0.06)}
-    .product-card{display:flex;flex-direction:column;gap:12px;align-items:center;text-align:center}
-    .bottle{width:220px;height:220px;border-radius:18px;background:linear-gradient(180deg,var(--mid),var(--dark));display:flex;align-items:center;justify-content:center;color:white;font-weight:800;font-size:20px;box-shadow:0 18px 40px rgba(11,79,136,0.18)}
-
-    section{padding:36px 0}
-    .grid-2{display:grid;grid-template-columns:1fr 1fr;gap:28px;align-items:center}
-    .how-list{list-style:none;padding:0;margin:0;display:grid;gap:12px}
-    .how-list li{background:var(--accent);padding:12px;border-radius:8px;border:1px solid rgba(11,79,136,0.06)}
-
-    .contact-card{background:linear-gradient(180deg,var(--mid),var(--dark));color:white;padding:18px;border-radius:12px}
-    .contact-list{display:flex;flex-direction:column;gap:10px}
-    .contact-list a{color:white;text-decoration:none;font-weight:700}
-
-    footer{padding:24px 0;text-align:center;color:#12394f;font-size:14px}
-
-    /* responsive */
-    @media (max-width:880px){
-      .hero{grid-template-columns:1fr}
-      .features{grid-template-columns:repeat(2,1fr)}
-      .grid-2{grid-template-columns:1fr}
-      nav{display:none}
-    }
-  </style>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <div class="container">
@@ -104,7 +53,7 @@
 
         <div class="product-card">
           <div class="bottle">Rain's Blossom</div>
-          <div style="text-align:center;max-width:360px">Available sizes: 250ml / 500ml / 1L<br/>Affordable for everyday use.</div>
+          <div style="text-align:center;max-width:360px">Available sizes: 250ml / 500ml / 1L<br>Affordable for everyday use.</div>
         </div>
       </section>
 
@@ -133,17 +82,17 @@
           <p>Our dishwashing liquid removes food residues and leaves a fresh scent. Safe for most cookware and rinses off easily.</p>
 
           <div style="display:flex;gap:14px;flex-wrap:wrap;margin-top:18px">
-            <div style="flex:1;min-width:230px;background:white;padding:14px;border-radius:10px;box-shadow:var(--shadow)">
+            <div class="inline-card">
               <strong>Concentrated Formula</strong>
-              <p style="margin:8px 0 0">Use a small amount for effective cleaning.</p>
+              <p>Use a small amount for effective cleaning.</p>
             </div>
-            <div style="flex:1;min-width:230px;background:white;padding:14px;border-radius:10px;box-shadow:var(--shadow)">
+            <div class="inline-card">
               <strong>Gentle Ingredients</strong>
-              <p style="margin:8px 0 0">No harsh chemicals that dry your hands.</p>
+              <p>No harsh chemicals that dry your hands.</p>
             </div>
-            <div style="flex:1;min-width:230px;background:white;padding:14px;border-radius:10px;box-shadow:var(--shadow)">
+            <div class="inline-card">
               <strong>Fresh Scent</strong>
-              <p style="margin:8px 0 0">Pleasant, light fragrance that doesn't overpower.</p>
+              <p>Pleasant, light fragrance that doesn't overpower.</p>
             </div>
           </div>
         </div>
@@ -180,7 +129,7 @@
               <div class="contact-card">
                 <h4 style="margin:0 0 8px">Quick Order</h4>
                 <p style="margin:0 0 12px">Tell us: size, quantity, delivery details</p>
-                <a href="mailto:rainsblossom@gmail.com?subject=Order%20from%20Rain's%20Blossom" style="display:inline-block;background:rgba(255,255,255,0.14);padding:10px 12px;border-radius:8px;color:#fff;text-decoration:none;font-weight:700">Email to Order</a>
+                <a href="mailto:rainsblossom@gmail.com?subject=Order%20from%20Rain's%20Blossom">Email to Order</a>
               </div>
             </div>
           </div>
@@ -196,14 +145,14 @@
 
   <script>
     // Smooth scroll for internal links
-    document.querySelectorAll('a[href^="#"]').forEach(a=>{
-      a.addEventListener('click',e=>{
+    document.querySelectorAll('a[href^="#"]').forEach(a => {
+      a.addEventListener('click', e => {
         e.preventDefault();
         const id = a.getAttribute('href').slice(1);
-        if(!id) return window.scrollTo({top:0,behavior:'smooth'});
+        if(!id) return window.scrollTo({top:0, behavior:'smooth'});
         const el = document.getElementById(id);
-        if(el) el.scrollIntoView({behavior:'smooth',block:'start'});
-      })
+        if(el) el.scrollIntoView({behavior:'smooth', block:'start'});
+      });
     });
   </script>
 </body>
