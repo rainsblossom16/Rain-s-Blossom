@@ -7,14 +7,14 @@
 
 body {
   font-family: Arial, sans-serif;
-  background-color: #a5fcff; /* main background light aqua */
+  background-color: #f5f9ff;
   color: #333;
   line-height: 1.6;
 }
 
 /* Header */
 header {
-  background-color: #81c2c5; /* teal header */
+  background-color: #005f99;
   color: white;
   padding: 10px 0;
 }
@@ -45,18 +45,18 @@ header {
 }
 
 .nav-links a:hover {
-  color: #f0ffff;
+  color: #a0e1ff;
 }
 
 /* Hero Section */
 .hero {
   text-align: center;
   padding: 60px 20px;
-  background-color: #81c2c5; /* teal hero background */
-  color: white;
+  background-color: #cce7ff;
 }
 
 .hero h2 {
+  color: #005f99;
   font-size: 2.2rem;
   margin-bottom: 10px;
 }
@@ -69,7 +69,6 @@ header {
 .product {
   text-align: center;
   padding: 40px 20px;
-  background-color: #a5fcff; /* light aqua */
 }
 
 .product img {
@@ -79,22 +78,20 @@ header {
 
 /* About Section */
 .about {
-  background-color: #81c2c5; /* teal about section */
+  background-color: #e6f2ff;
   text-align: center;
   padding: 40px 20px;
-  color: white;
 }
 
 /* Contact Section */
 .contact {
   text-align: center;
   padding: 40px 20px;
-  background-color: #a5fcff; /* light aqua */
 }
 
 /* Footer */
 footer {
-  background-color: #81c2c5; /* teal footer */
+  background-color: #005f99;
   color: white;
   text-align: center;
   padding: 15px 0;
