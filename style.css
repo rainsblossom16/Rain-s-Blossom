@@ -18,7 +18,7 @@ body {
   line-height: 1.5;
 }
 .header-logo {
-    position: fixed;        /* stays at the top when scrolling */
+    position: fixed;        /* stays at the left top when scrolling */
     top: 0;                 /* aligns to top of page */
     left: 50%;              /* center horizontally */
     transform: translateX(-50%); /* center properly */
